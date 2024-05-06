@@ -3,7 +3,7 @@ import SlimSelect from 'slim-select';
 import 'slim-select/dist/slimselect.css';
 import Notiflix from 'notiflix';
 
-const selectBreed = document.querySelector(".breed-select");
+const selectBreed = document.querySelector('select.breed-select');
 const loader = document.querySelector(".loader");
 const error = document.querySelector(".error");
 const cat = document.querySelector(".cat-info");
